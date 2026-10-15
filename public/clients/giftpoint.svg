@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <style>
+    .gp-text { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 18px; font-weight: 800; fill: #111827; letter-spacing: 1px; }
+    .gp-sub { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 8px; font-weight: 600; fill: #C8282D; letter-spacing: 2px; }
+  </style>
+  <g transform="translate(10, 10)">
+    <!-- Gift box icon -->
+    <rect x="2" y="8" width="24" height="20" rx="3" fill="#C8282D"/>
+    <rect x="12" y="8" width="4" height="20" fill="#FFFFFF"/>
+    <rect x="0" y="5" width="28" height="4" rx="1.5" fill="#111827"/>
+    <!-- Text -->
+    <text x="36" y="18" class="gp-text">GIFT<tspan fill="#C8282D">POINT</tspan></text>
+    <text x="37" y="29" class="gp-sub">E-COMMERCE STORE</text>
+  </g>
+</svg>

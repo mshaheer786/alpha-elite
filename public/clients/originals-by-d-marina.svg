@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <style>
+    .brand-title { font-family: 'Cinzel', 'Playfair Display', Georgia, serif; font-size: 19px; font-weight: 700; fill: #111111; letter-spacing: 2px; }
+    .brand-sub { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 8.5px; font-weight: 600; fill: #666666; letter-spacing: 3px; }
+    .crest { fill: #C8282D; }
+  </style>
+  <g transform="translate(10, 10)">
+    <!-- Stylized Monogram Crest -->
+    <path class="crest" d="M12 4 L22 20 L2 20 Z" opacity="0.9"/>
+    <circle cx="12" cy="26" r="3.5" fill="#111111"/>
+    <!-- Text -->
+    <text x="32" y="19" class="brand-title">ORIGINALS</text>
+    <text x="33" y="32" class="brand-sub">BY D MARINA</text>
+  </g>
+</svg>

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <radialGradient id="glow" cx="82%" cy="78%" r="65%">
+      <stop offset="0" stop-color="#C8282D" stop-opacity=".4"/>
+      <stop offset="1" stop-color="#C8282D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0A0A0A"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".13">
+    <rect x="170" y="120" width="1260" height="760" rx="14" fill="#111111"/>
+    <path d="M170 188h1260"/>
+    <circle cx="210" cy="154" r="8" fill="#C8282D" stroke="none"/>
+    <circle cx="238" cy="154" r="8" fill="#FFFFFF" fill-opacity=".25" stroke="none"/>
+    <circle cx="266" cy="154" r="8" fill="#FFFFFF" fill-opacity=".14" stroke="none"/>
+    <path d="M230 240v570m0-500h220m-220 70h220m-220 70h220m-220 70h220m-220 70h220" stroke-opacity=".09"/>
+    <rect x="500" y="245" width="800" height="300" rx="4" fill="#C8282D" fill-opacity=".045"/>
+    <path d="M550 330h430m-430 34h290" stroke="#FFFFFF" stroke-opacity=".28" stroke-width="8" stroke-linecap="round"/>
+    <rect x="550" y="410" width="170" height="40" rx="20" fill="#C8282D" fill-opacity=".7" stroke="none"/>
+    <rect x="500" y="590" width="245" height="200" rx="4" fill="#FFFFFF" fill-opacity=".035"/>
+    <rect x="780" y="590" width="245" height="200" rx="4" fill="#FFFFFF" fill-opacity=".035"/>
+    <rect x="1060" y="590" width="240" height="200" rx="4" fill="#FFFFFF" fill-opacity=".035"/>
+  </g>
+  <text x="1010" y="460" fill="#FFFFFF" font-family="Georgia, serif" font-size="62">D Marina</text>
+  <text x="1012" y="498" fill="#C8282D" font-family="Arial, sans-serif" font-size="16" letter-spacing="5">PROJECT PREVIEW</text>
+</svg>

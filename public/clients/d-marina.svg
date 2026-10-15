@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <style>
+    .dm-title { font-family: 'Cinzel', 'Playfair Display', Georgia, serif; font-size: 19px; font-weight: 700; fill: #0A0A0A; letter-spacing: 2px; }
+    .dm-sub { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 8.5px; font-weight: 600; fill: #6B7280; letter-spacing: 2px; }
+  </style>
+  <g transform="translate(10, 11)">
+    <!-- Wave Anchor emblem -->
+    <circle cx="14" cy="15" r="13" fill="#F3F4F6" stroke="#C8282D" stroke-width="2"/>
+    <text x="7" y="21" font-family="'Cinzel', serif" font-size="14" font-weight="900" fill="#C8282D">M</text>
+    <!-- Text -->
+    <text x="36" y="17" class="dm-title">D MARINA</text>
+    <text x="37" y="28" class="dm-sub">MULTI-PRODUCT STORE</text>
+  </g>
+</svg>

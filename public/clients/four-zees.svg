@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <style>
+    .fz-text { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 19px; font-weight: 900; fill: #0F172A; letter-spacing: 1px; }
+    .fz-badge { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 8.5px; font-weight: 700; fill: #C8282D; letter-spacing: 2.5px; }
+  </style>
+  <g transform="translate(10, 11)">
+    <!-- 4Z Emblem -->
+    <rect x="0" y="2" width="28" height="28" rx="6" fill="#0F172A"/>
+    <text x="5" y="22" font-family="'Plus Jakarta Sans', sans-serif" font-size="14" font-weight="900" fill="#FFFFFF">4Z</text>
+    <!-- Text -->
+    <text x="36" y="17" class="fz-text">FOUR ZEES</text>
+    <text x="37" y="28" class="fz-badge">COMMERCE &amp; TRADE</text>
+  </g>
+</svg>

@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1000" viewBox="0 0 1600 1000">
+  <defs>
+    <radialGradient id="glow" cx="14%" cy="20%" r="70%">
+      <stop offset="0" stop-color="#C8282D" stop-opacity=".36"/>
+      <stop offset="1" stop-color="#C8282D" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="1000" fill="#0A0A0A"/>
+  <rect width="1600" height="1000" fill="url(#glow)"/>
+  <g fill="none" stroke="#FFFFFF" stroke-opacity=".12">
+    <rect x="130" y="145" width="1340" height="710" rx="10" fill="#111111"/>
+    <path d="M130 220h1340"/>
+    <circle cx="174" cy="182" r="8" fill="#C8282D" stroke="none"/>
+    <circle cx="202" cy="182" r="8" fill="#FFFFFF" fill-opacity=".24" stroke="none"/>
+    <circle cx="230" cy="182" r="8" fill="#FFFFFF" fill-opacity=".15" stroke="none"/>
+    <path d="M300 290v470m1000-470v470" stroke-opacity=".2"/>
+    <path d="M350 700l190-300 170 200 170-240 190 340" stroke="#C8282D" stroke-opacity=".56" stroke-width="3"/>
+    <path d="M350 720h720" stroke-opacity=".24"/>
+    <rect x="460" y="315" width="420" height="18" rx="9" fill="#FFFFFF" fill-opacity=".3" stroke="none"/>
+    <rect x="460" y="350" width="290" height="12" rx="6" fill="#FFFFFF" fill-opacity=".16" stroke="none"/>
+    <rect x="1080" y="610" width="140" height="42" rx="4" fill="#C8282D" fill-opacity=".7" stroke="none"/>
+  </g>
+  <text x="460" y="555" fill="#FFFFFF" font-family="Georgia, serif" font-size="64">RQ Marble</text>
+  <text x="462" y="592" fill="#C8282D" font-family="Arial, sans-serif" font-size="16" letter-spacing="6">WEBSITE PROJECT PREVIEW</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 60" width="240" height="60">
+  <style>
+    .cw-main { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 19px; font-weight: 800; fill: #0B0F19; letter-spacing: 0.5px; }
+    .cw-sub { font-family: 'Plus Jakarta Sans', system-ui, sans-serif; font-size: 8px; font-weight: 600; fill: #4B5563; letter-spacing: 2.5px; }
+  </style>
+  <g transform="translate(10, 11)">
+    <!-- Colour spectrum circles -->
+    <circle cx="6" cy="16" r="6" fill="#C8282D" opacity="0.9"/>
+    <circle cx="16" cy="16" r="6" fill="#111827" opacity="0.85"/>
+    <circle cx="26" cy="16" r="6" fill="#6B7280" opacity="0.75"/>
+    <!-- Text -->
+    <text x="38" y="16" class="cw-main">COLOUR<tspan fill="#C8282D">WAY</tspan></text>
+    <text x="39" y="27" class="cw-sub">OFFICIAL DISTRIBUTOR</text>
+  </g>
+</svg>
