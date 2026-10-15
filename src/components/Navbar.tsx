@@ -19,7 +19,7 @@ export const Navbar: React.FC<NavbarProps> = ({
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
   const drawerRef = useRef<HTMLDivElement>(null);
 
-  // Scroll effect detection (transparent at top, blurred dark after 20px, height shrinks)
+  // Scroll effect detection (transparent at top, blurred dark after 20px)
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 20);
@@ -73,10 +73,10 @@ export const Navbar: React.FC<NavbarProps> = ({
   return (
     <>
       <header
-        className={`sticky top-0 z-40 w-full transition-all duration-300 ${
+        className={`sticky top-0 z-50 flex h-20 w-full items-center transition-all duration-300 ${
           isScrolled
-            ? 'bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/10 py-3.5 shadow-xl'
-            : 'bg-transparent border-b border-transparent py-5'
+            ? 'bg-[#0A0A0A]/95 backdrop-blur-md border-b border-white/10 shadow-xl'
+            : 'bg-transparent border-b border-transparent'
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">

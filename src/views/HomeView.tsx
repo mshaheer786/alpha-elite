@@ -61,11 +61,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
   const recentProjects = projects.slice(0, 3);
 
   return (
-    <div className="relative overflow-hidden bg-[#0A0A0A]">
+    <div className="relative bg-[#0A0A0A]">
       {/* =========================================================================
           2.a) HERO SECTION (Left-aligned, 3D visual, H1 across 4 marketplaces, 2 CTAs, worldwide line)
          ========================================================================= */}
-      <section ref={heroSectionRef} className="relative isolate min-h-[90vh] flex flex-col justify-center px-4 sm:px-6 lg:px-8 pt-10 pb-16 overflow-hidden">
+      <section ref={heroSectionRef} className="ae-home-hero relative isolate flex min-h-[100svh] flex-col justify-center">
         <HeroBackground />
         {/* Abstract Background Ambient Atmosphere */}
         <div className="absolute inset-0 pointer-events-none overflow-hidden">
@@ -74,10 +74,10 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <div className="absolute inset-0 bg-grain opacity-40" />
         </div>
 
-        <div className="max-w-7xl mx-auto w-full relative z-10">
-          <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+        <div className="ae-home-hero-container max-w-7xl mx-auto w-full relative z-10">
+          <div className="ae-home-hero-grid grid grid-cols-1 lg:grid-cols-[1.1fr_0.9fr] gap-12 items-center">
             {/* Left-Aligned Hero Content */}
-            <div className="lg:col-span-7">
+            <div className="min-w-0">
               {/* Small Eyebrow Line */}
               <motion.div
                 initial={{ opacity: 0, y: 14 }}
@@ -183,8 +183,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
             </div>
 
             {/* Right: 3D Visual & Interactive Canvas */}
-            <div className="lg:col-span-5 relative">
-              <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl bg-gradient-to-b from-neutral-900 via-neutral-950 to-black aspect-[4/3] sm:aspect-square flex flex-col justify-between p-2">
+            <div className="relative min-w-0">
+              <div className="ae-home-hero-card relative w-full min-w-0 rounded-2xl border border-white/10 shadow-2xl bg-gradient-to-b from-neutral-900 via-neutral-950 to-black flex flex-col justify-between p-2">
                 {/* Lazy-loaded 3D marketplace scene */}
                 <Suspense
                   fallback={
@@ -195,7 +195,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                   }
                 >
                   <Hero3DCanvas
-                    className="absolute inset-0 z-0"
+                    className="ae-home-hero-scene absolute inset-0 z-0"
                     heroSectionRef={heroSectionRef}
                     platformsSectionRef={platformsSectionRef}
                     onPlatformHighlight={setHighlightedPlatform}
