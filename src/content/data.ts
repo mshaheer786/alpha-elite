@@ -20,7 +20,7 @@ export const projects: Project[] = [
     platform: 'Shopify (TODO: verify platform)',
     url: 'https://colourway.pk',
     description: 'Official distributor e-commerce website developed with complete product setup and digital presence. (TODO_REAL_DETAIL: Add verified client scope)',
-    image: '/portfolio/colourway.svg',
+    image: '/portfolio/colourway.jpeg',
   },
   {
     slug: 'giftpoint',
@@ -29,7 +29,7 @@ export const projects: Project[] = [
     platform: 'Shopify (TODO: verify platform)',
     url: 'https://giftpoint.com.pk',
     description: 'E-commerce website developed with complete product setup and digital presence. (TODO_REAL_DETAIL: Add verified client scope)',
-    image: '/portfolio/giftpoint.svg',
+    image: '/portfolio/giftpoint.jpeg',
   },
   {
     slug: 'dmarina',
@@ -38,7 +38,7 @@ export const projects: Project[] = [
     platform: 'Shopify (TODO: verify platform)',
     url: 'https://dmarina.pk',
     description: 'Multi-product e-commerce website developed with complete product setup and digital presence. (TODO_REAL_DETAIL: Add verified client scope)',
-    image: '/portfolio/dmarina.svg',
+    image: '/portfolio/dmarina.jpeg',
   },
   {
     slug: 'originals-by-dmarina',
@@ -47,7 +47,7 @@ export const projects: Project[] = [
     platform: 'Shopify (TODO: verify platform)',
     url: 'https://originalsbydmarina.com',
     description: 'Premium e-commerce store developed with complete product setup and digital presence. (TODO_REAL_DETAIL: Add verified client scope)',
-    image: '/portfolio/originals-by-dmarina.svg',
+    image: '/portfolio/originalsbydmarina.jpeg',
   },
   {
     slug: 'rqmarble',
@@ -56,6 +56,6 @@ export const projects: Project[] = [
     platform: 'Custom Web (TODO: verify platform)',
     url: 'https://rqmarble.com',
     description: 'Business website built for construction and marble company with product showcase and presentation. (TODO_REAL_DETAIL: Add verified client scope)',
-    image: '/portfolio/rqmarble.svg',
+    image: '/portfolio/rqmarble.jpeg',
   },
 ];

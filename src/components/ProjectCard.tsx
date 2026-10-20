@@ -48,7 +48,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ project, className = '
     return () => window.removeEventListener('resize', calculatePan);
   }, [isLoaded]);
 
-  const altText = `Preview of the ${project.title} ${project.category.toLowerCase()} project`;
+  const altText = `Screenshot of the ${cleanDomain} website`;
 
   return (
     <div
