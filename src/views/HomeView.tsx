@@ -221,7 +221,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                     Alpha Elite Executive Studio
                   </span>
                   <p className="text-xs text-neutral-300 font-medium mt-1 leading-snug">
-                    Bosan Road, Multan · Technical Architecture for Shopify, Amazon, TikTok Shop &amp; Walmart.
+                    Bosan Road, Multan · Technical Architecture for eBay, Shopify, Amazon, TikTok Shop &amp; Walmart.
                   </p>
                 </div>
               </div>
@@ -242,7 +242,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
       <SectionDivider />
 
       {/* =========================================================================
-          2.d) "PLATFORMS WE WORK ON" SECTION (4 CARDS: Shopify, Amazon, TikTok Shop, Walmart)
+          2.d) "PLATFORMS WE WORK ON" SECTION
          ========================================================================= */}
       <section ref={platformsSectionRef} className="py-20 px-4 sm:px-6 lg:px-8 bg-[#0A0A0A]">
         <div className="max-w-7xl mx-auto">
@@ -254,11 +254,11 @@ export const HomeView: React.FC<HomeViewProps> = ({
               Platforms We Work On
             </h2>
             <p className="text-sm text-[#A1A1AA] leading-relaxed">
-              We engineer specialized operations across the four dominant retail ecosystems to expand your customer reach and protect against single-channel platform risk.
+              We engineer specialized operations across five major commerce platforms to expand your customer reach and protect against single-channel platform risk.
             </p>
           </div>
 
-          <div data-stagger="0.1" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div data-stagger="0.1" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {siteConfig.marketplaceServices.map((m) => (
               <div
                 key={m.id}
@@ -276,7 +276,7 @@ export const HomeView: React.FC<HomeViewProps> = ({
                       {m.platform}
                     </span>
                     <span className="text-[10px] font-mono uppercase text-[#C8282D] bg-[#C8282D]/10 px-2 py-0.5 rounded">
-                      Platform
+                      {m.platform === 'eBay' ? 'Priority Platform' : 'Platform'}
                     </span>
                   </div>
 
@@ -452,8 +452,8 @@ export const HomeView: React.FC<HomeViewProps> = ({
           <div data-stagger="0.08" className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
             {[
               {
-                title: '4-Marketplace Mastery',
-                desc: 'Deep operational fluency across Shopify, Amazon, TikTok Shop, and Walmart under one roof.',
+                title: '5-Marketplace Mastery',
+                desc: 'Deep operational fluency across eBay, Shopify, Amazon, TikTok Shop, and Walmart under one roof.',
                 icon: <Layers className="w-5 h-5 text-[#C8282D]" />,
               },
               {

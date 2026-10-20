@@ -62,7 +62,7 @@ export const ServicesTrainingsView: React.FC<ServicesTrainingsViewProps> = ({
             Marketplace Services & Trainings
           </h1>
           <p className="text-[#A1A1AA] text-base leading-relaxed">
-            Professional marketplace management across Shopify, Amazon, TikTok Shop, and Walmart, custom digital services, and practical skill courses in Multan.
+            Professional marketplace management across eBay, Shopify, Amazon, TikTok Shop, and Walmart, custom digital services, and practical skill courses in Multan.
           </p>
 
           {/* Segmented Control (Zero-Pill Discipline) */}
@@ -100,7 +100,7 @@ export const ServicesTrainingsView: React.FC<ServicesTrainingsViewProps> = ({
             transition={{ duration: 0.35 }}
             className="space-y-16"
           >
-            {/* GROUP 1: MARKETPLACE SERVICES (SHOPIFY, AMAZON, TIKTOK SHOP, WALMART) */}
+            {/* GROUP 1: MARKETPLACE SERVICES */}
             <div>
               <div className="mb-8">
                 <span className="text-xs font-mono uppercase tracking-[0.2em] text-[#C8282D] block">
@@ -127,7 +127,7 @@ export const ServicesTrainingsView: React.FC<ServicesTrainingsViewProps> = ({
                           {item.platform}
                         </span>
                         <span className="text-[10px] font-mono uppercase text-[#C8282D] bg-[#C8282D]/10 px-2.5 py-0.5 rounded">
-                          Marketplace
+                          {item.platform === 'eBay' ? 'Priority Marketplace' : 'Marketplace'}
                         </span>
                       </div>
 
@@ -242,7 +242,7 @@ export const ServicesTrainingsView: React.FC<ServicesTrainingsViewProps> = ({
                   Need a Unified Multi-Channel Strategy?
                 </h3>
                 <p className="text-sm text-[#A1A1AA] mt-1 max-w-2xl">
-                  We formulate cohesive marketplace rollouts integrating Shopify storefronts with Amazon, TikTok Shop, and Walmart catalog feeds.
+                  We formulate cohesive marketplace rollouts integrating eBay, Shopify, Amazon, TikTok Shop, and Walmart operations.
                 </p>
               </div>
               <button

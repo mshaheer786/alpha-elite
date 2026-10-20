@@ -2,7 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { createPortal } from 'react-dom';
 import * as THREE from 'three';
 
-const platformNames = ['Shopify', 'Amazon', 'TikTok Shop', 'Walmart'] as const;
+const platformNames = ['eBay', 'Shopify', 'Amazon', 'TikTok Shop', 'Walmart'] as const;
 
 interface Hero3DCanvasProps {
   className?: string;
@@ -277,7 +277,7 @@ export const Hero3DCanvas: React.FC<Hero3DCanvasProps> = ({
       [0, -1, phi], [0, 1, phi], [0, -1, -phi], [0, 1, -phi],
       [phi, 0, -1], [phi, 0, 1], [-phi, 0, -1], [-phi, 0, 1],
     ].map(([x, y, z]) => new THREE.Vector3(x, y, z).multiplyScalar(vertexScale));
-    const platformVertexIndexes = [0, 3, 6, 9];
+    const platformVertexIndexes = [0, 3, 6, 9, 1];
     const edgeVertices: number[] = [];
     const edgeLength = vertices[0].distanceTo(vertices[1]);
     for (let first = 0; first < vertices.length; first += 1) {
@@ -720,7 +720,7 @@ export const Hero3DCanvas: React.FC<Hero3DCanvasProps> = ({
               willChange: 'transform',
               opacity: webglEnabled ? 1 : 0.9,
             }}
-            aria-label="Interactive atom showing four e-commerce platforms"
+            aria-label="Interactive atom showing five e-commerce platforms"
           >
             <div
               className="absolute inset-0"

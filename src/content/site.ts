@@ -1,14 +1,14 @@
 /**
  * Alpha Elite Solutions & Trainings
  * Central Site Configuration & Content Data
- * Multi-Marketplace Focus: Shopify, Amazon, TikTok Shop, Walmart
+ * Multi-Marketplace Focus: eBay, Shopify, Amazon, TikTok Shop, Walmart
  */
 
 import { projects, Project } from './data';
 
 export interface MarketplaceService {
   id: string;
-  platform: 'Shopify' | 'Amazon' | 'TikTok Shop' | 'Walmart';
+  platform: 'eBay' | 'Shopify' | 'Amazon' | 'TikTok Shop' | 'Walmart';
   tagline: string;
   description: string;
   services: string[];
@@ -60,9 +60,10 @@ export const siteConfig = {
   shortName: 'Alpha Elite',
   tagline: 'Commitment To Excellence',
   positioning:
-    'Comprehensive marketplace management across Shopify, Amazon, TikTok Shop and Walmart, custom web development, digital marketing, and practical professional training courses in Multan.',
-  platforms: ['Shopify', 'Amazon', 'TikTok Shop', 'Walmart'] as const,
+    'Comprehensive marketplace management across eBay, Shopify, Amazon, TikTok Shop and Walmart, custom web development, digital marketing, and practical professional training courses in Multan.',
+  platforms: ['eBay', 'Shopify', 'Amazon', 'TikTok Shop', 'Walmart'] as const,
   platformWordmarks: [
+    { name: 'eBay', desc: 'Seller account and store setup, listing optimization, catalog management, and promoted listings.' },
     { name: 'Shopify', desc: 'Custom theme development, store builds, app integration, and payment gateways.' },
     { name: 'Amazon', desc: 'Seller account support, product listing optimization, A+ content, and PPC ads.' },
     { name: 'TikTok Shop', desc: 'Shop setup, creator and affiliate campaigns, product cataloging, and video ads.' },
@@ -80,19 +81,33 @@ export const siteConfig = {
     hours: 'Monday – Friday: 9:00 AM – 6:00 PM (PKT)',
   },
   disclaimer:
-    'Shopify, Amazon, TikTok Shop and Walmart are trademarks of their respective owners. Alpha Elite is not affiliated with them.',
+    'eBay, Shopify, Amazon, TikTok Shop and Walmart are trademarks of their respective owners. Alpha Elite is not affiliated with them.',
   leadership: {
     quote:
-      'True execution in modern commerce requires mastering the specific mechanics of every major marketplace: Shopify, Amazon, TikTok Shop and Walmart.',
+      'True execution in modern commerce requires mastering the specific mechanics of every major marketplace: eBay, Shopify, Amazon, TikTok Shop and Walmart.',
     bio: 'Our team guides brands through multi-channel marketplace setup, account health, and catalog management while training the next generation of professional account managers at our Multan campus.',
   },
   stats: [
-    { value: '4 Major', label: 'Marketplaces Supported', context: 'Shopify, Amazon, TikTok Shop, Walmart' },
+    { value: '5 Major', label: 'Marketplaces Supported', context: 'eBay, Shopify, Amazon, TikTok Shop, Walmart' },
     { value: 'Turnkey', label: 'End-to-End Execution', context: 'Store setup, listings, ad management & inventory' },
     { value: 'Onsite + Online', label: 'Flexible Training Formats', context: 'Multan physical campus & live interactive online' },
     { value: 'Multan HQ', label: 'Commercial Presence', context: 'Chase Up, Bosan Road corporate office & lab' },
   ],
   marketplaceServices: [
+    {
+      id: 'ebay-service',
+      platform: 'eBay',
+      tagline: 'Priority Marketplace Growth & Seller Operations',
+      description:
+        'Build and grow your eBay presence with practical support for seller accounts, store setup, catalog quality, and day-to-day marketplace operations.',
+      services: [
+        'Seller account setup and store configuration',
+        'Search-friendly listing creation and optimization',
+        'Item specifics, category, and catalog management',
+        'Order, inventory, and account health support',
+        'Promoted Listings campaign setup and optimization',
+      ],
+    },
     {
       id: 'shopify-service',
       platform: 'Shopify',
@@ -475,23 +490,24 @@ export const siteConfig = {
   ] as TrainingCourse[],
   blogPosts: [
     {
-      slug: 'growing-across-shopify-amazon-tiktok-walmart',
-      title: 'Multi-Channel Commerce: Expanding Across Shopify, Amazon, TikTok Shop and Walmart',
+      slug: 'growing-across-ebay-shopify-amazon-tiktok-walmart',
+      title: 'Multi-Channel Commerce: Expanding Across eBay, Shopify, Amazon, TikTok Shop and Walmart',
       category: 'Marketplace Strategy',
       date: 'April 2026',
       readTime: '6 min read',
-      targetKeyword: 'e-commerce agency Multan, Amazon seller services Pakistan',
+      targetKeyword: 'eBay seller services Pakistan, e-commerce agency Multan, Amazon seller services Pakistan',
       excerpt:
-        'Why relying on a single channel limits brand potential, and how managing Shopify, Amazon, TikTok Shop, and Walmart in tandem provides diversified stability.',
+        'Why relying on a single channel limits brand potential, and how managing eBay, Shopify, Amazon, TikTok Shop, and Walmart in tandem provides diversified stability.',
       content: `In the evolving digital commerce ecosystem, relying on a single sales channel exposes businesses to platform policy changes, algorithm adjustments, or fluctuating advertising costs.
 
-### The Four Pillars of Multi-Channel E-Commerce
-1. **Shopify (Your Brand Flagship):** Provides complete ownership of your customer relationship, brand storytelling, custom checkout experiences, and direct remarketing.
-2. **Amazon (High-Intent Marketplace):** Connects your catalog with millions of active, high-intent shoppers searching specifically for products with fast fulfillment expectations.
-3. **TikTok Shop (Social Discovery):** Leverages video content, creator affiliate networks, and impulse in-app checkouts to reach audiences who discover products through organic entertainment.
-4. **Walmart Marketplace (Retail Expansion):** Offers access to a rapidly growing North American marketplace with lower seller density in selected categories.
+### Five Channels for Multi-Channel E-Commerce
+1. **eBay (Priority Marketplace):** Reaches a broad global buyer base and supports new, pre-owned, and specialist product catalogs.
+2. **Shopify (Your Brand Flagship):** Provides complete ownership of your customer relationship, brand storytelling, custom checkout experiences, and direct remarketing.
+3. **Amazon (High-Intent Marketplace):** Connects your catalog with millions of active, high-intent shoppers searching specifically for products with fast fulfillment expectations.
+4. **TikTok Shop (Social Discovery):** Leverages video content, creator affiliate networks, and impulse in-app checkouts to reach audiences who discover products through organic entertainment.
+5. **Walmart Marketplace (Retail Expansion):** Offers access to a growing North American marketplace.
 
-At Alpha Elite Solutions & Trainings, our agency team assists businesses in setting up, cataloging, and managing accounts across all four platforms from our Multan offices.`,
+At Alpha Elite Solutions & Trainings, our agency team assists businesses in setting up, cataloging, and managing accounts across all five platforms from our Multan offices.`,
     },
     {
       slug: 'amazon-seller-services-pakistan-guide',
@@ -554,7 +570,14 @@ Explore our dedicated Walmart marketplace management services and training modul
       category: 'services',
       question: 'Which e-commerce platforms and marketplaces does Alpha Elite support?',
       answer:
-        'Alpha Elite works across four core e-commerce platforms: Shopify, Amazon, TikTok Shop, and Walmart. We also provide full-stack web development, SEO, UI/UX design, and digital marketing services.',
+        'Alpha Elite works across five core e-commerce platforms: eBay, Shopify, Amazon, TikTok Shop, and Walmart. We also provide full-stack web development, SEO, UI/UX design, and digital marketing services.',
+    },
+    {
+      id: 'faq-ebay',
+      category: 'services',
+      question: 'What eBay marketplace services do you provide?',
+      answer:
+        'eBay is a priority marketplace for our team. We support seller account and store setup, search-friendly listing optimization, item specifics and catalog management, account health, and Promoted Listings campaigns.',
     },
     {
       id: 'faq-2',

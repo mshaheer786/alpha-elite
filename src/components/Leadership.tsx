@@ -28,7 +28,7 @@ export const Leadership: React.FC<LeadershipProps> = ({ onOpenConsultation }) =>
 
         <div className="text-xs sm:text-sm text-[#A1A1AA] leading-relaxed space-y-3">
           <p>
-            {siteConfig.leadership.bio} Our team supports businesses with multi-channel e-commerce architecture across <strong>Shopify, Amazon, TikTok Shop, and Walmart</strong>.
+            {siteConfig.leadership.bio} Our team supports businesses with multi-channel e-commerce architecture across <strong>eBay, Shopify, Amazon, TikTok Shop, and Walmart</strong>.
           </p>
           <p>
             We emphasize operational compliance, technical catalog structuring, and hands-on skills training at our physical campus in Chase Up, Bosan Road, Multan.
@@ -38,6 +38,7 @@ export const Leadership: React.FC<LeadershipProps> = ({ onOpenConsultation }) =>
         {/* Marketplace Specialties */}
         <div className="grid grid-cols-2 gap-2.5 pt-2">
           {[
+            'eBay Seller Operations',
             'Shopify Liquid & Storefronts',
             'Amazon Seller Central & PPC',
             'TikTok Shop Merchant Setup',

@@ -33,7 +33,7 @@ export const AboutView: React.FC<AboutViewProps> = ({ onOpenConsultation, setAct
             Commitment To Excellence
           </h1>
           <p data-reveal className="text-lg text-[#A1A1AA] leading-relaxed font-light">
-            Alpha Elite Solutions & Trainings was founded in Multan with a clear focus: to provide structured, multi-channel commerce management across Shopify, Amazon, TikTok Shop, and Walmart, alongside modern web development, SEO, and hands-on skill trainings.
+            Alpha Elite Solutions & Trainings was founded in Multan with a clear focus: to provide structured, multi-channel commerce management across eBay, Shopify, Amazon, TikTok Shop, and Walmart, alongside modern web development, SEO, and hands-on skill trainings.
           </p>
         </div>
 
