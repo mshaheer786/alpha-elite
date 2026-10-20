@@ -594,7 +594,7 @@ export const CartoonLampContact: React.FC<CartoonLampContactProps> = ({ onLeadSu
                       className="w-full flex items-center justify-center gap-2 py-2.5 px-4 bg-emerald-600/20 border border-emerald-500/40 text-emerald-400 hover:bg-emerald-600/30 font-medium text-xs rounded-lg transition-colors"
                     >
                       <MessageSquare className="w-4 h-4" />
-                      Instant Chat on WhatsApp (+92 314 6077809)
+                      Instant Chat on WhatsApp ({siteConfig.contact.whatsappNumber})
                     </a>
                   </div>
                 </div>
