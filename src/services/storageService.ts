@@ -1,3 +1,5 @@
+import { siteConfig } from '../content/site';
+
 /**
  * Local persistence and WhatsApp dispatch service for Alpha Elite
  */
@@ -156,7 +158,6 @@ export const storageService = {
   },
 
   createWhatsAppUrl(lead: { name: string; phone: string; service?: string; course?: string; message?: string }): string {
-    const phone = '923146077809';
     let text = `*New Inquiry via Alpha Elite Website*\n\n`;
     text += `*Name:* ${lead.name}\n`;
     text += `*Contact:* ${lead.phone}\n`;
@@ -165,6 +166,6 @@ export const storageService = {
     if (lead.message) text += `*Message:* ${lead.message}\n`;
     text += `\n_Alpha Elite Solutions & Trainings (Chase Up, Bosan Road, Multan)_`;
 
-    return `https://wa.me/${phone}?text=${encodeURIComponent(text)}`;
+    return `${siteConfig.contact.whatsappLink}?text=${encodeURIComponent(text)}`;
   },
 };

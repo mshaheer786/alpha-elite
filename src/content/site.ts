@@ -70,10 +70,10 @@ export const siteConfig = {
   ],
   contact: {
     email: 'alphaelitesolutionstrainings@gmail.com',
-    phone: '03146077809',
-    formattedPhone: '+92 314 6077809',
-    whatsappLink: 'https://wa.me/923146077809',
-    whatsappNumber: '+92 314 6077809',
+    phone: '03233748408',
+    formattedPhone: '0323 3748408',
+    whatsappLink: 'https://wa.me/923233748408',
+    whatsappNumber: '0323 3748408',
     address: 'Chase Up, Bosan Road, Multan, Pakistan',
     locationShort: 'Chase Up, Bosan Road, Multan',
     facebook: 'https://www.facebook.com/profile.php?id=61594513037815',
@@ -81,14 +81,10 @@ export const siteConfig = {
   },
   disclaimer:
     'Shopify, Amazon, TikTok Shop and Walmart are trademarks of their respective owners. Alpha Elite is not affiliated with them.',
-  founder: {
-    name: 'Mian Abdul Raffay',
-    title: 'Founder & Principal Director',
-    role: 'Marketplace Architect & Digital Strategist',
+  leadership: {
     quote:
       'True execution in modern commerce requires mastering the specific mechanics of every major marketplace: Shopify, Amazon, TikTok Shop and Walmart.',
-    bio: 'Guiding brands through multi-channel marketplace setup, account health, and catalog management from Chase Up, Bosan Road, Multan, while training the next generation of professional account managers.',
-    image: '/src/assets/images/mian_abdul_raffay_1792037148522.jpg',
+    bio: 'Our team guides brands through multi-channel marketplace setup, account health, and catalog management while training the next generation of professional account managers at our Multan campus.',
   },
   stats: [
     { value: '4 Major', label: 'Marketplaces Supported', context: 'Shopify, Amazon, TikTok Shop, Walmart' },
@@ -600,14 +596,14 @@ Explore our dedicated Walmart marketplace management services and training modul
       category: 'trainings',
       question: 'What are the course fees and upcoming batch schedules?',
       answer:
-        'Course fees and upcoming batch start dates vary by track (marked as TODO in our course listings). Please contact our admissions desk on WhatsApp at 0314 6077809 for current schedule details.',
+        'Course fees and upcoming batch start dates vary by track (marked as TODO in our course listings). Please contact our admissions desk on WhatsApp at 0323 3748408 for current schedule details.',
     },
     {
       id: 'faq-8',
       category: 'services',
       question: 'Where is Alpha Elite located?',
       answer:
-        'Our corporate office and training lab are located at Chase Up, Bosan Road, Multan, Pakistan. You can visit during business hours (Monday–Friday, 9:00 AM – 6:00 PM) or reach us on WhatsApp at 0314 6077809.',
+        'Our corporate office and training lab are located at Chase Up, Bosan Road, Multan, Pakistan. You can visit during business hours (Monday–Friday, 9:00 AM – 6:00 PM) or reach us on WhatsApp at 0323 3748408.',
     },
   ],
 };

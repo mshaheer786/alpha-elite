@@ -17,7 +17,7 @@ export const FloatingWhatsApp: React.FC = () => {
         href={siteConfig.contact.whatsappLink}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label="Direct WhatsApp Contact with Mian Abdul Raffay"
+        aria-label="Direct WhatsApp Contact with Alpha Elite"
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         onFocus={() => setIsHovered(true)}
@@ -86,7 +86,7 @@ export const FloatingWhatsApp: React.FC = () => {
                   </span>
                   <span className="text-[10px] text-emerald-400 font-medium tracking-wide leading-none mt-1 flex items-center gap-1.5">
                     <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse shrink-0" />
-                    <span>Mian Abdul Raffay • Active Now</span>
+                    <span>Alpha Elite Team • Active Now</span>
                   </span>
                 </div>
               </motion.div>

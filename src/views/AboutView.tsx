@@ -11,7 +11,7 @@ import {
   Building,
 } from 'lucide-react';
 import { siteConfig } from '../content/site';
-import { Founder } from '../components/Founder';
+import { Leadership } from '../components/Leadership';
 
 interface AboutViewProps {
   onOpenConsultation: () => void;
@@ -38,9 +38,9 @@ export const AboutView: React.FC<AboutViewProps> = ({ onOpenConsultation, setAct
         </div>
 
         {/* =========================================================================
-            2. FOUNDER PROFILE & MARKETPLACE EXPERTISE
+            2. AGENCY EXPERTISE
            ========================================================================= */}
-        <Founder onOpenConsultation={onOpenConsultation} />
+        <Leadership onOpenConsultation={onOpenConsultation} />
 
         {/* =========================================================================
             3. CORE PILLARS & VALUES
